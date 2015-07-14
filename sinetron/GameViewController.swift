@@ -26,6 +26,7 @@ extension SKNode {
 }
 
 class GameViewController: UIViewController {
+    @IBOutlet weak var lblOutput: UILabel!
 
     override func viewDidLoad() {
         super.viewDidLoad()
